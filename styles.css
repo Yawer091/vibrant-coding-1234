@@ -1,65 +1,136 @@
-.nav-link{
 
-    color: white;
+* {
+  box-sizing: border-box;
 }
-.nav-item{
-    
-    margin-right: 10px;
+
+#ibg {
+  background-image: url(./images/PageBackGroundTexture-black.jpeggit);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
 }
-.nav{
-    background-color: rgb(20,20,20);
-    
-}
-#ibg{
-    background-image: url(./images/PageBackGroundTexture-black.jpeggit);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
-}
-/* 
-.carousel-item{
-     height: 400px; 
-} 
-*/
- .card{
-    padding: 20px;
- }
- .card-body{
-    display: flex;
-    flex-direction: column;
-     justify-content: space-between;
- }
- .last{
-    height: 300px;
-    border-radius: 10px;
- }
-/* <button class="btn btn-primary" type="button" disabled>
-  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-  <span class="visually-hidden">Loading...</span>
-</button>
-<button class="btn btn-primary" type="button" disabled>
-  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-  Loading...
-</button> */
 
 
-/* <span class="material-symbols-outlined">
-masked_transitions
-</span> */
+.card {
+  padding: 20px;
+}
 
-/* <div class="d-flex flex-row justify-content-evenly align-items-center">
-                      
-                        <span class="material-symbols-outlined fs-5 fw-bolder btn btn-outline-dark col-2 rounded-3 text-center  ">
-                          favorite
-                          </span>
-                      
-                      <button class="btn btn-dark col-8" type="button">
-                        Loading...
-                      </button>
-                    </div> */
-                    /*
-                    Base Of Glory Pore Minimizing Primer
-                    Contour De Force Eyes And Face Palette - 03 Cool Conquest
-                    Matte Attack Transferproof Lipstick - 01 Boldplay (Cardinal Pink)
-                    Powder Play Translucent Compact
-                    */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.last {
+  height: 300px;
+  border-radius: 10px;
+}
+
+/* --------------------------------sujeet------------------------------------ */
+
+
+.s_cont {
+  /* width: 100%;
+  height: auto; */
+
+  background-image: url(https://media.sugarcosmetics.com/upload/VTOBackgroungTexture.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.s_best {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+hr {
+
+  width: 35px;
+  border: 1.5px solid #fc3688;
+  margin: 10px;
+}
+
+.s_card {
+  margin-left: 115px;
+}
+
+.card>img {
+  width: 80%;
+  padding: 20px;
+  /* border: 1px solid; */
+  margin-left: 20px;
+}
+
+.s_img {
+  width: 100%;
+  /* border: 2px solid green; */
+  height: 180px;
+}
+
+.s_img img {
+  width: 130px;
+  margin: 0px 45px;
+  border-radius: 10px;
+}
+
+.s_imgs {
+  width: 100%;
+  height: 180px;
+}
+
+.s_imgs img {
+  width: 140px;
+  padding: 30px 0px;
+  margin: 0px 40px;
+}
+
+/* .s_btn{
+  padding: 20px;
+  border-radius: 50%;
+  color: #fc2779;
+  background-color: #fff;
+  check after completing
+} */
+.card {
+  border-radius: 15px;
+  /* height: 400px; */
+}
+
+.card-body>p {
+  font-size: 11px;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+span {
+  color: #fd678a;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.fa-heart {
+  border: 1px solid;
+  padding: 8px 7px;
+  border-radius: 8px;
+
+}
+
+.s_price p {
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+.s_price h5 {
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+
+
+
+
+/* ---------------------------sujeet end ---------------------------- */
+
+
