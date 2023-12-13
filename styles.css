@@ -1,0 +1,65 @@
+.nav-link{
+
+    color: white;
+}
+.nav-item{
+    
+    margin-right: 10px;
+}
+.nav{
+    background-color: rgb(20,20,20);
+    
+}
+#ibg{
+    background-image: url(./images/PageBackGroundTexture-black.jpeggit);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+/* 
+.carousel-item{
+     height: 400px; 
+} 
+*/
+ .card{
+    padding: 20px;
+ }
+ .card-body{
+    display: flex;
+    flex-direction: column;
+     justify-content: space-between;
+ }
+ .last{
+    height: 300px;
+    border-radius: 10px;
+ }
+/* <button class="btn btn-primary" type="button" disabled>
+  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+  <span class="visually-hidden">Loading...</span>
+</button>
+<button class="btn btn-primary" type="button" disabled>
+  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+  Loading...
+</button> */
+
+
+/* <span class="material-symbols-outlined">
+masked_transitions
+</span> */
+
+/* <div class="d-flex flex-row justify-content-evenly align-items-center">
+                      
+                        <span class="material-symbols-outlined fs-5 fw-bolder btn btn-outline-dark col-2 rounded-3 text-center  ">
+                          favorite
+                          </span>
+                      
+                      <button class="btn btn-dark col-8" type="button">
+                        Loading...
+                      </button>
+                    </div> */
+                    /*
+                    Base Of Glory Pore Minimizing Primer
+                    Contour De Force Eyes And Face Palette - 03 Cool Conquest
+                    Matte Attack Transferproof Lipstick - 01 Boldplay (Cardinal Pink)
+                    Powder Play Translucent Compact
+                    */
