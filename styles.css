@@ -78,6 +78,10 @@
   text-align: center;
 }
 
+
+
+
+
 /* -----------chandan  start-------- */
 
 /* --------chandan start ----------- */
@@ -85,34 +89,54 @@
   background-image: url(./images/PageBackGroundTexture-black.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 988px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  height:608px;
+ height: 550px;
 }
 #ch-carousel {
   /* background-color: yellow; */
-  width: 80%;
+  width: 85%;
 }
 
 #ch-carousel > .carousel-inner > .carousel-item > .row > .col > .card {
   width: 100%;
-  height: 528px;
-  border-radius: 20px;
+  /* height:470px; */
+  /* border-radius: 20px; */
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  gap: 10px;
-  /* padding: 20px; */
+  /* gap:5px; */
+ /* padding:5px; */
+} 
+#ch-carousel
+  > .carousel-inner
+  > .carousel-item
+  > .row
+  > .col
+  > .card
+  > .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
 }
+/* #ch-carousel
+  > .carousel-inner
+  > .carousel-item
+  > .row
+  > .col
+  > .card>.card-footer{
+  background-color:blue;
+  } */
 #ch-carousel > .carousel-control-prev {
-  background-color: black;
+ 
   border-radius: 50%;
   width: 50px;
   height: 50px;
   background-color: white;
   top: 40%;
   left: -5%;
+  color: #f51283d4;
 }
 #ch-carousel > .carousel-control-prev:hover {
   border: 2px solid red;
@@ -129,10 +153,12 @@
 #ch-carousel > .carousel-control-next:hover {
   border: 2px solid red;
 }
-#ch-carousel > .carousel-inner > .carousel-item > .row > .col > .card > img {
-  border-radius: 20px;
+#ch-carousel > .carousel-inner > .carousel-item > .row > .col > .card >img {
+  border-radius:20px;
   width: 166px;
   height: 222px;
+  /* width: 200px;
+  height: 230px; */
 }
 
 .fa-heart {
@@ -145,29 +171,24 @@
   font-size: 14px;
   text-decoration: line-through;
   color: #6c757d;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
 }
 
 .ch_price h5 {
   font-size: 18px;
   color: #000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
 }
 .ch_price > h6 > span {
   color: #fc2779;
   font-size: 14px;
   font-weight: 700;
+  font-family: "Roboto", sans-serif;
+
 }
-#ch-carousel
-  > .carousel-inner
-  > .carousel-item
-  > .row
-  > .col
-  > .card
-  > .card-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
+
 #ch-carousel
   > .carousel-inner
   > .carousel-item
@@ -178,17 +199,30 @@
   > .card-text {
   color: #212121;
 }
-/*
-  .ch-icon-btn>span{
-    font-size: 45px; 
+/* d-flex flex-row */
+  
+   .ch-icn-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap:5px;
+  
+   }
+   .ch-icn-btn>span{
+    font-size:15px; 
+    padding: 12px;
+    /* font-weight:700; */
   }
-  */
-/* .ch-icon-btn>button{
-    font-size: 14px;
+.ch-icn-btn>button{
+    font-size: 15px;
     background-color: #000;
     color: #fff;
-    color: red;
-   } */
+    padding: 12px;
+    /* padding: 12px 40px 12 40px; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+   } 
 
 /* ----chandan end----------- */
 
