@@ -2,31 +2,33 @@
   position: absolute;
   top: 100%;
   left: 0px;
-  z-index: 1000;
   display: none;
+ 
+
 }
 
 .input-group:hover .search-dropdown {
   display: block;
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
   color: #121212;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  width: 570px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+width: 600px;
+z-index: 9;
 }
+
 
 .nav-item.dropdown .nav-link {
   text-decoration: none;
   position: relative;
+
 }
 
 .nav-item.dropdown .nav-link:after {
   content: "";
   position: absolute;
   width: 0;
-  height: 2px;
-  background-color: #f51283d4; /* Change the color as needed */
+  height: 3px;
+  background-color: #b60962f9; /* Change the color as needed */
   left: 0;
   bottom: 0;
   transition: width 0.7s ease;
@@ -38,16 +40,16 @@
 
 .hoverable-dropdown:hover .dropdown-menu {
   display: flex !important;
+ 
 }
 
 .dropdown-menu.flex-content {
   display: none;
   flex-wrap: wrap;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  
 }
 
 .flex-content .col {
@@ -58,6 +60,7 @@
 /* Adjusted font size for the list items */
 .flex-content ul {
   font-size: 12px; /* You can adjust this size */
+ 
 }
 
 /* Change heading to h6 */
@@ -69,13 +72,23 @@
 .navbar-toggler {
   display: none;
 }
-.R-list > li {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+.R-list>li{
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
-  width: 90px;
-  text-align: center;
+width: 90px;
+text-align: center;
+}
+.carousel-indicators>button {
+border-radius: 50%;
+width: 10px !important;
+height: 10px !important;
+background-color: rgb(77, 77, 80) !important;
+position: relative;
+top: 50px;
+}
+#R-log:hover{
+
+background-color: rgb(60, 58, 58);
 }
 
 /* -----------chandan  start-------- */
