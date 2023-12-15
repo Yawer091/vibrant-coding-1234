@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #434ccc;
+  color: #fff;
+}
+nav .top {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+nav .top h3 {
+  font-family: DM Serif Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 120% */
+}
+nav .top div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+nav .top div ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 20px;
+}
+nav .top div button {
+  color: #fff;
+  width: 170px;
+  height: 48px;
+  background-color: #434ccc;
+  border: 1px solid #fff;
+}
+nav .top-banner {
+  color: #fff;
+  text-align: center;
+}
+nav .top-banner h1 {
+  font-family: DM Serif Display;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px;
+}
+nav .top-banner p {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+header .numb {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.cy {
+  background-color: yellow;
+}
+
+footer {
+  background-color: #f0f8ff;
+}
+footer div div h1 {
+  color: black;
+}
+footer div .f-base {
+  color: rgb(186, 186, 186);
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=styles.css.map */
