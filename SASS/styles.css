@@ -1,3 +1,10 @@
+.sujeet {
+  width: 100%;
+  height: 500px;
+  background-color: yellow;
+  font-size: 50px;
+}
+
 * {
   margin: 0;
   padding: 0;
