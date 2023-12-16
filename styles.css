@@ -231,6 +231,7 @@ span {
 /* YAWER START */
 .bg-1 {
   background-image: url(./images/bg-footer.svg);
+  object-fit: fill;
 }
 .bg-2 {
   background-image: url(./images/bgft2.jpg);
@@ -241,7 +242,7 @@ span {
   padding-top: 30px;
 }
 .gt {
-  margin-left: 80px;
+  margin-left: 205px;
 }
 
 /* YAWER END */
