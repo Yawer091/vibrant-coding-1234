@@ -11,87 +11,168 @@
   box-sizing: border-box;
 }
 
-nav {
-  background-color: #434ccc;
-  color: #fff;
-}
-nav .top {
-  width: 80%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-}
-nav .top h3 {
-  font-family: DM Serif Display;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 48px; /* 120% */
-}
-nav .top div {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-}
-nav .top div ul {
-  display: flex;
-  align-items: center;
-  list-style-type: none;
-  gap: 20px;
-}
-nav .top div button {
-  color: #fff;
-  width: 170px;
-  height: 48px;
-  background-color: #434ccc;
-  border: 1px solid #fff;
-}
-nav .top-banner {
-  color: #fff;
-  text-align: center;
-}
-nav .top-banner h1 {
-  font-family: DM Serif Display;
-  font-size: 72px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 80px;
-}
-nav .top-banner p {
-  font-family: DM Sans;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
-}
-
-header {
-  display: flex;
-  justify-content: center;
-}
-header .numb {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-}
-
-.cy {
-  background-color: yellow;
-}
-
-footer {
+.sec2 {
   background-color: #f0f8ff;
 }
-footer div div h1 {
-  color: black;
-}
-footer div .f-base {
-  color: rgb(186, 186, 186);
+.sec2 .pr {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
+  width: 80%;
+  margin: auto;
+}
+.sec2 .pr .h-left {
+  margin-top: 10px;
+  max-width: 40%;
+  margin: auto;
+}
+.sec2 .pr .h-left h5 {
+  margin-bottom: 10px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3em;
+  text-align: left;
+  text-transform: uppercase;
+}
+.sec2 .pr .h-left h2 {
+  margin-bottom: 10px;
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.sec2 .pr .h-left .dis {
+  color: #000000;
+  margin-bottom: 10px;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.sec2 .pr .h-left .numb {
+  margin-top: 10px;
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+}
+.sec2 .pr .h-left .numb div {
+  margin-top: 10px;
+}
+.sec2 .pr .h-left .numb div h3 {
+  margin-top: 10px;
+  font-family: DM Serif Display;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.sec2 .pr .h-left .numb div h4 {
+  margin-top: 10px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.sec2 .pr .h-left .numb div p {
+  margin-top: 10px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: gray;
+}
+.sec2 .pr .h-right {
+  max-width: 65%;
+  margin: auto;
+}
+.sec2 .pr .h-right img {
+  max-width: 100%;
+  height: auto;
+  flex-shrink: 0;
+}
+@media all and (min-width: 100px) and (max-width: 375px) {
+  .sec2 .pr {
+    flex-direction: column;
+    max-width: 100%;
+    margin: auto;
+  }
+  .sec2 .pr .h-left {
+    max-width: 100%;
+  }
+  .sec2 .pr .h-left h5 {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3em;
+    text-align: left;
+  }
+  .sec2 .pr .h-left h2 {
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .sec2 .pr .h-left .dis {
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .sec2 .pr .h-left .numb {
+    flex-direction: column;
+  }
+  .sec2 .pr .h-left .numb div {
+    width: 80%;
+  }
+  .sec2 .pr .h-left .numb div h3 {
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .sec2 .pr .h-left .numb div h4 {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .sec2 .pr .h-left .numb div p {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .sec2 .pr .h-right {
+    max-width: 100%;
+    margin: auto;
+  }
+  .sec2 .pr .h-right img {
+    width: 647px;
+    height: 431px;
+    top: 940px;
+    left: -138px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }/*# sourceMappingURL=styles.css.map */
