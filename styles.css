@@ -89,7 +89,6 @@
   background-color: rgb(60, 58, 58);
 }
 
-
 /* ---------------sujeet start------------- */
 
 .form-control::placeholder {
@@ -231,7 +230,7 @@ span {
 /* YAWER START */
 .bg-1 {
   background-image: url(./images/bg-footer.svg);
-  object-fit: fill;
+  object-fit: contain;
 }
 .bg-2 {
   background-image: url(./images/bgft2.jpg);
@@ -242,12 +241,10 @@ span {
   padding-top: 30px;
 }
 .gt {
-  margin-left: 205px;
+  margin-left: 150px;
 }
 
 /* YAWER END */
-
-
 
 /* -----------chandan  start-------- */
 
@@ -266,13 +263,13 @@ span {
 
 #ch-carousel > .carousel-inner > .carousel-item > .row > .col > .card {
   width: 100%;
-  height:470px;
+  height: 470px;
   /* border-radius: 20px; */
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  gap:5px;
+  gap: 5px;
   /* padding:5px; */
 }
 #ch-carousel
@@ -386,8 +383,7 @@ span {
   color: #fff;
   padding: 10px 35px 10px 35px;
   font-family: "Roboto", sans-serif;
-  font-weight:600;
- 
+  font-weight: 600;
 }
 
 /* ----chandan end----------- */
