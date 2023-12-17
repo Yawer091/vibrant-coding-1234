@@ -1,6 +1,191 @@
-.sujeet{
-    width: 100%;
-    height: 500px;
-    background-color: yellow;
-    font-size: 50px;
-}
+@mixin font($font, $fontfam, $fontwgt) {
+    font-size: $font;
+    font-family: $fontfam;
+    font-weight: $fontwgt;
+  }
+  @mixin box($width, $height) {
+    width: $width;
+    height: $height;
+  }
+  
+  //   ------------------------- top--------------------
+  
+  .s_top {
+    @include box(100%, 767px);
+    // border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+    .s_tright {
+      align-self: center;
+      h5 {
+        @include font(16px, DM Sans, 400);
+        margin-bottom: -21px;
+      }
+      h2 {
+        @include font(56px, DM Serif Display, 400);
+        line-height: 64px;
+        margin-bottom: 29px;
+        height: 128px;
+      }
+      p {
+        @include font(20px, DM Sans, 400);
+        height: 103px;
+        line-height: 32px;
+      }
+      button {
+        @include font(16px, DM Sans, 700);
+        line-height: 24px;
+        background-color: #434ccc;
+        color: #ffffff;
+        margin-top: 32px;
+        padding: 11px 43.5px 13px 43.5px;
+        border: none;
+        border-radius: 5px;
+        margin-top: -2px;
+      }
+    }
+  }
+  
+  // ------------------------------Bottom------------------------
+  
+  .s_bottom {
+    @include box(100%, auto);
+    display: flex;
+    justify-content: start;
+    .s_bleft {
+      height: auto;
+      width: 45%;
+      padding: 150px 10px 250px 100px;
+      h5 {
+        @include font(16px, DM Sans, 400);
+        margin-bottom: -21px;
+      }
+      h2 {
+        @include font(56px, DM Serif Display, 400);
+        margin-top: 32px;
+      }
+  
+      .s_range1 {
+        margin-top: -30px;
+        .s_font1 {
+          @include font(20px, DM Sans, 400);
+          display: flex;
+          justify-content: space-between;
+  
+        }
+        .s_rbox1 {
+          width: 100%;
+          background-color: rgb(238, 238, 238);
+          .s_col1 {
+            width: 85%;
+            height: 10px;
+            background-color: #f1b505;
+          }
+        }
+      }
+      .s_range2 {
+        margin-top: 31px;
+        .s_font2 {
+          @include font(20px, DM Sans, 400);
+          display: flex;
+          justify-content: space-between;
+        }
+        .s_rbox2 {
+          width: 100%;
+          height: 10px;
+          background-color: rgb(238, 238, 238);
+          .s_col2 {
+            width: 73%;
+            height: 10px;
+            background-color: #e94a47;
+          }
+        }
+      }
+      .s_range3 {
+        margin-top: 31px;
+        .s_font3 {
+          @include font(20px, DM Sans, 400);
+          display: flex;
+          justify-content: space-between;
+        }
+        .s_rbox3 {
+          width: 100%;
+          height: 10px;
+          background-color: rgb(238, 238, 238);
+          .s_col3 {
+            width: 42%;
+            height: 10px;
+            background-color: #428dfc;
+          }
+        }
+      }
+    }
+  
+    .s_bimg {
+      max-width: 100%;
+      margin: auto;
+      img {
+        max-width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  
+  // --------------------------sujeet media quary start-----------------------------
+  
+  @media all and (max-width: 375px) {
+    .s_top {
+      flex-direction: column;
+      img {
+        width: 100%;
+        overflow: hidden;
+        object-fit: cover;
+      }
+      .s_tright {
+        margin: auto;
+        max-width: 100%;
+        padding: 20px;
+        h5 {
+          margin-top: 10px;
+        }
+        h2 {
+          font-size: 40px;
+          margin-top: 20px;
+        }
+        p {
+          font-size: 20px;
+          line-height: 32px;
+        }
+        button{
+          margin-top: 50px;
+        }
+      }
+    }
+    .s_bottom {
+      max-width: 100%;
+      flex-direction: column;
+      .s_bleft {
+        // border: 1px solid;
+        width: 90%;
+        padding:0px 0px 0px 20px;
+        h5{
+          font-size: 16px;
+        }
+        h2{
+          font-size: 40px;
+          line-height: 48px;
+        }
+        .s_com{
+          max-width: 100%;
+        }
+      }
+      .s.bimg {
+        max-width: 100%;
+      }
+    }
+  }
+  
+  // ---------------------------sujeet media query end ------------------------
