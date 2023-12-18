@@ -1,7 +1,8 @@
 $primary-bg: #fff;
 
 .N-main{
-    margin-bottom: 80px;
+    // margin-bottom: 80px;
+    background: #f0f8ff;
     .N-head{
         h2{
         text-align: center;
@@ -47,6 +48,7 @@ $primary-bg: #fff;
         // padding-right: 15px;
         background: #FFF;
         box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
+        transition: 0.5s;
             .N-hr{
                 align-self: flex-end;
                 width: 100%;
@@ -131,6 +133,9 @@ $primary-bg: #fff;
                 }
         }
     }
+    .N-card:hover{
+        transform: scale(1.08);
+    }
 }
 
 
@@ -156,7 +161,7 @@ $primary-bg: #fff;
 
 .nmn {
       width: 100%;
-      background-color: $primary-bg;
+      background: #f0f8ff;
     
       .npr {
         margin: auto;
@@ -179,6 +184,7 @@ $primary-bg: #fff;
         //   margin: auto;
         // align-self: flex-start;
         line-height: 32px; /* 160% */
+        margin-top: 50px;
     
           h5 {
             
@@ -198,16 +204,16 @@ font-size: 56px;
 font-style: normal;
 font-weight: 400;
 line-height: 64px; /* 114.286% */
-margin-top: 21px;
-margin-bottom: 29px;
+// margin-top: 21px;
+// margin-bottom: 29px;
           }
     
           .ndis {
-font-family: DM Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
+            font-family: DM Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px; /* 160% */
           }
     
           .niconen {
@@ -223,12 +229,21 @@ line-height: 32px; /* 160% */
               align-content: start;
               align-items: center;
               gap: 23px;
+              svg{
+                transition: 1s;
+              }
+              svg:hover{
+                transform: rotate(359deg);
+              }
             }
           }
     
           .nbtn {
+            display: flex;
+            gap: 30px;
             margin-top: 49px;
             font-family: "DM Sans Display";
+            transition: 0.5s;
     
             .nb1 {
               font-size: 16px;
@@ -252,11 +267,17 @@ line-height: 32px; /* 160% */
               border: 2px solid rgba(67, 76, 204, 0.2);
               color: #434CCC;
               border-radius: 5px;
-              margin-left: 30px;
+            //   margin-left: 30px;
               width: 170px;
               height: 48px;
             //   flex-shrink: 0;
             }
+          }
+          .nb1:hover{
+            transform: scale(1.15);
+          }
+          .nb2:hover{
+            transform: scale(1.15);
           }
         }
     
@@ -281,6 +302,10 @@ line-height: 32px; /* 160% */
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            .n-left{
+                width: 100%;
+                margin-left: -25px;
+            }
             .n-right{
                 width: 100%;
                 img{
@@ -290,6 +315,7 @@ line-height: 32px; /* 160% */
             .nbtn{
                 margin: auto;
                 display: flex;
+                gap: 5px;
                 .nb1{
                     height: 60px;
                     width: 60px;
@@ -301,6 +327,7 @@ line-height: 32px; /* 160% */
                     width: 60px;
                     font-weight: 200;
                     line-height: normal;
+                    margin-left: -25px;
                 }
             }
         }

@@ -238,7 +238,7 @@
   }
 }
 .N-main {
-  margin-bottom: 80px;
+  background: #f0f8ff;
 }
 .N-main .N-head h2 {
   text-align: center;
@@ -280,6 +280,7 @@
   padding-left: 20px;
   background: #FFF;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
 }
 .N-main .N-cards .N-card .N-hr {
   align-self: flex-end;
@@ -346,6 +347,9 @@
   height: 11px;
   fill: #000000;
 }
+.N-main .N-card:hover {
+  transform: scale(1.08);
+}
 
 @media all and (max-width: 375px) {
   .N-cards {
@@ -364,7 +368,7 @@
 }
 .nmn {
   width: 100%;
-  background-color: #fff;
+  background: #f0f8ff;
 }
 .nmn .npr {
   margin: auto;
@@ -381,6 +385,7 @@
   align-items: start;
   gap: 10px;
   line-height: 32px; /* 160% */
+  margin-top: 50px;
 }
 .nmn .npr .n-left h5 {
   font-family: DM Sans;
@@ -397,8 +402,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: 64px; /* 114.286% */
-  margin-top: 21px;
-  margin-bottom: 29px;
 }
 .nmn .npr .n-left .ndis {
   font-family: DM Sans;
@@ -422,9 +425,18 @@
   align-items: center;
   gap: 23px;
 }
+.nmn .npr .n-left .niconen p svg {
+  transition: 1s;
+}
+.nmn .npr .n-left .niconen p svg:hover {
+  transform: rotate(359deg);
+}
 .nmn .npr .n-left .nbtn {
+  display: flex;
+  gap: 30px;
   margin-top: 49px;
   font-family: "DM Sans Display";
+  transition: 0.5s;
 }
 .nmn .npr .n-left .nbtn .nb1 {
   font-size: 16px;
@@ -446,9 +458,14 @@
   border: 2px solid rgba(67, 76, 204, 0.2);
   color: #434CCC;
   border-radius: 5px;
-  margin-left: 30px;
   width: 170px;
   height: 48px;
+}
+.nmn .npr .n-left .nb1:hover {
+  transform: scale(1.15);
+}
+.nmn .npr .n-left .nb2:hover {
+  transform: scale(1.15);
 }
 .nmn .npr .n-right {
   width: 700px;
@@ -468,6 +485,10 @@
     align-items: center;
     flex-direction: column;
   }
+  .npr .n-left {
+    width: 100%;
+    margin-left: -25px;
+  }
   .npr .n-right {
     width: 100%;
   }
@@ -477,6 +498,7 @@
   .npr .nbtn {
     margin: auto;
     display: flex;
+    gap: 5px;
   }
   .npr .nbtn .nb1 {
     height: 60px;
@@ -489,6 +511,7 @@
     width: 60px;
     font-weight: 200;
     line-height: normal;
+    margin-left: -25px;
   }
 }
 .s_top {
