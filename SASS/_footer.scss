@@ -61,7 +61,7 @@
 
     .inp {
       margin-top: 132px;
-      width: 80%;
+      // width: 70%;
       flex-shrink: 0;
 
       @media all and (max-width: $mobile) {
@@ -70,7 +70,7 @@
       }
 
       input {
-        // width: 30%\\;
+        width: 210%;
 
         height: 48px;
         border-radius: 5px;

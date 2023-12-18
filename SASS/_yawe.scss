@@ -108,7 +108,7 @@ $primary-font: rgb(186, 186, 186);
     }
   }
 
-  @media all and (min-width: 100px) and (max-width: 375px) {
+  @media all and (max-width: 375px) {
     .pr {
       flex-direction: column;
       max-width: 100%;

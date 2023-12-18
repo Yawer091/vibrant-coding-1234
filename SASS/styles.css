@@ -457,7 +457,8 @@
 .nmn .npr .n-right img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media all and (max-width: 375px) {
@@ -627,7 +628,8 @@
 }
 .s_bottom .s_bimg img {
   max-width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media all and (max-width: 375px) {
@@ -640,7 +642,8 @@
   .s_top img {
     width: 100%;
     overflow: hidden;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .s_top .s_tright {
     margin: auto;
@@ -781,7 +784,7 @@
   height: auto;
   flex-shrink: 0;
 }
-@media all and (min-width: 100px) and (max-width: 375px) {
+@media all and (max-width: 375px) {
   .sec2 .pr {
     flex-direction: column;
     max-width: 100%;
@@ -853,7 +856,8 @@
     height: 431px;
     top: 940px;
     left: -138px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 
@@ -1040,7 +1044,6 @@ header .nav-list .list li button {
 }
 .footer-1 .box .inp {
   margin-top: 132px;
-  width: 80%;
   flex-shrink: 0;
 }
 @media all and (max-width: 375px) {
@@ -1050,6 +1053,7 @@ header .nav-list .list li button {
   }
 }
 .footer-1 .box .inp input {
+  width: 210%;
   height: 48px;
   border-radius: 5px;
   margin-top: 28px;
@@ -1061,6 +1065,14 @@ header .nav-list .list li button {
   .footer-1 .box .inp input {
     width: 80%;
   }
+}
+.footer-1 .box .inp input ::-moz-placeholder {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: DM Sans;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 .footer-1 .box .inp input ::placeholder {
   color: var(--text-black-50, rgba(0, 0, 0, 0.5));
@@ -1281,6 +1293,4 @@ header .nav-list .list li button {
     margin: 0;
     padding: 14px;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
