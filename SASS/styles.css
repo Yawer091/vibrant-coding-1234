@@ -354,6 +354,9 @@
   .N-cards .N-card {
     width: 100%;
   }
+  .N-main {
+    margin: auto;
+  }
   .N-main .N-head h2 {
     font-size: 40px;
     line-height: 48px; /* 120% */
@@ -504,7 +507,8 @@
   font-size: 16px;
   font-family: DM Sans;
   font-weight: 400;
-  margin-bottom: -21px;
+  margin-bottom: 21px;
+  letter-spacing: 8px;
 }
 .s_top .s_tright h2 {
   font-size: 56px;
@@ -532,7 +536,7 @@
   padding: 11px 43.5px 13px 43.5px;
   border: none;
   border-radius: 5px;
-  margin-top: -2px;
+  margin-top: 15px;
 }
 
 .s_bottom {
@@ -551,6 +555,7 @@
   font-family: DM Sans;
   font-weight: 400;
   margin-bottom: -21px;
+  letter-spacing: 8px;
 }
 .s_bottom .s_bleft h2 {
   font-size: 56px;
@@ -559,7 +564,7 @@
   margin-top: 32px;
 }
 .s_bottom .s_bleft .s_range1 {
-  margin-top: -30px;
+  margin-top: 30px;
 }
 .s_bottom .s_bleft .s_range1 .s_font1 {
   font-size: 20px;
@@ -630,6 +635,9 @@
 @media all and (max-width: 375px) {
   .s_top {
     flex-direction: column;
+    gap: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .s_top img {
     width: 100%;
@@ -654,7 +662,7 @@
     line-height: 32px;
   }
   .s_top .s_tright button {
-    margin-top: 50px;
+    margin-top: 80px;
   }
   .s_bottom {
     max-width: 100%;
@@ -662,17 +670,20 @@
   }
   .s_bottom .s_bleft {
     width: 90%;
-    padding: 0px 0px 0px 20px;
+    padding: 50px 0px 0px 20px;
   }
   .s_bottom .s_bleft h5 {
     font-size: 16px;
+    line-height: 24px;
   }
   .s_bottom .s_bleft h2 {
     font-size: 40px;
     line-height: 48px;
+    font-weight: 400;
   }
   .s_bottom .s_bleft .s_com {
     max-width: 100%;
+    margin-top: 30px;
   }
   .s_bottom .s.bimg {
     max-width: 100%;

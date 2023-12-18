@@ -22,7 +22,9 @@
       align-self: center;
       h5 {
         @include font(16px, DM Sans, 400);
-        margin-bottom: -21px;
+        margin-bottom: 21px;
+        letter-spacing: 8px;
+        // align-self: self-start;
       }
       h2 {
         @include font(56px, DM Serif Display, 400);
@@ -44,7 +46,7 @@
         padding: 11px 43.5px 13px 43.5px;
         border: none;
         border-radius: 5px;
-        margin-top: -2px;
+        margin-top: 15px;
       }
     }
   }
@@ -62,6 +64,7 @@
       h5 {
         @include font(16px, DM Sans, 400);
         margin-bottom: -21px;
+        letter-spacing: 8px;
       }
       h2 {
         @include font(56px, DM Serif Display, 400);
@@ -69,7 +72,7 @@
       }
   
       .s_range1 {
-        margin-top: -30px;
+        margin-top: 30px;
         .s_font1 {
           @include font(20px, DM Sans, 400);
           display: flex;
@@ -139,8 +142,12 @@
   @media all and (max-width: 375px) {
     .s_top {
       flex-direction: column;
+      gap: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
       img {
         width: 100%;
+        // height: 305.51px;
         overflow: hidden;
         object-fit: cover;
       }
@@ -160,7 +167,7 @@
           line-height: 32px;
         }
         button{
-          margin-top: 50px;
+          margin-top: 80px;
         }
       }
     }
@@ -170,16 +177,20 @@
       .s_bleft {
         // border: 1px solid;
         width: 90%;
-        padding:0px 0px 0px 20px;
+        
+        padding:50px 0px 0px 20px;
         h5{
           font-size: 16px;
+          line-height: 24px;
         }
         h2{
           font-size: 40px;
           line-height: 48px;
+          font-weight: 400;
         }
         .s_com{
           max-width: 100%;
+          margin-top: 30px;
         }
       }
       .s.bimg {
