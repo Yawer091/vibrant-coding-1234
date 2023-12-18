@@ -1,9 +1,242 @@
-.renuka {
-  background-color: aqua;
-  width: 100%;
-  height: 200px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+.R-cont {
+  height: 480px;
+  width: 100%;
+  background-color: #434ccc;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 29px;
+}
+.R-cont h2 {
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  color: white;
+  text-align: center;
+}
+.R-cont .dp {
+  width: 45%;
+}
+.R-cont p {
+  color: white;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.R-cont .R-text2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 165px;
+  color: white;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px;
+}
+.R-cont .R-text2 div {
+  display: flex;
+  flex-direction: column;
+}
+.R-cont .R-text2 div h1 {
+  color: white;
+  text-align: center;
+  font-family: " DM Serif Display";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px;
+  transition: transform 0.3 ease-in-out;
+}
+.R-cont .R-text2 div h1:hover {
+  transform: scale(1.2);
+}
+.R-cont .R-text2 div p {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.R-cont2 {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 83px;
+  margin-top: 111px;
+}
+.R-cont2 .box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 21px;
+}
+.R-cont2 .box1 h5 {
+  color: black;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+.R-cont2 .box1 h2 {
+  color: black;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+}
+.R-cont2 .box1 div {
+  width: 338px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.R-cont2 .box1 div article {
+  color: black;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.R-cont2 .box1 #R-but {
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #434CCC;
+  border-radius: 5px;
+  border: 1px solid #434CCC;
+  transition: transform 0.3 ease-in-out;
+}
+.R-cont2 .box1 #R-but:hover {
+  transform: scale(1.2);
+}
+.R-cont2 .box2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.R-cont2 .box2 .R-inbox div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.R-cont2 .box2 .R-inbox div img {
+  width: 52px;
+  height: 45px;
+  flex-shrink: 0;
+  transition: transform 0.3 ease-in-out;
+}
+.R-cont2 .box2 .R-inbox div img:hover {
+  transform: scale(1.5);
+}
+.R-cont2 .box2 .R-inbox div h4 {
+  color: black;
+  font-family: " DM Serif Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.R-cont2 .box2 .R-inbox .inbox2 {
+  width: 270px;
+  height: 80px;
+  flex-shrink: 0;
+}
+.R-cont2 .box2 .R-inbox .inbox2 p {
+  color: black;
+  font-family: " DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media all and (min-width: 100px) and (max-width: 375px) {
+  .R-cont {
+    height: 896px;
+    gap: 31px;
+  }
+  .R-cont h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+  }
+  .R-cont .dp {
+    width: 90%;
+  }
+  .R-cont .R-text2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .R-cont .R-text2 div {
+    width: 100%;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .R-cont .R-text2 div h1 {
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+  }
+  .R-cont .R-text2 div p {
+    font-size: 16px;
+  }
+  .R-cont .R-text {
+    width: 346px;
+    height: 103px;
+    flex-shrink: 0;
+  }
+  .R-cont2 {
+    flex-direction: column;
+  }
+  .R-cont2 .box1 h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+  }
+  .R-cont2 .box1 div {
+    width: 346px;
+    height: 230px;
+    flex-shrink: 0;
+  }
+  .R-cont2 .box2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 .N-main {
   margin-bottom: 80px;
 }
