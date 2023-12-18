@@ -1,0 +1,189 @@
+$primary-bg-top: #434ccc;
+$primary-bg: #f0f8ff;
+$primary-font: rgb(186, 186, 186);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sec2 {
+  background-color: $primary-bg;
+  .pr {
+    display: flex;
+    justify-content: start;
+    width: 80%;
+    margin: auto;
+
+    .h-left {
+      margin-top: 10px;
+      max-width: 40%;
+      margin: auto;
+
+      h5 {
+        margin-bottom: 10px;
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3em;
+        text-align: left;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        margin-bottom: 10px;
+        font-family: DM Serif Display;
+        font-size: 56px;
+        font-weight: 400;
+        line-height: 64px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+
+      .dis {
+        color: #000000;
+        margin-bottom: 10px;
+        font-family: DM Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+
+      .numb {
+        margin-top: 10px;
+        display: flex;
+        justify-content: start;
+        gap: 30px;
+
+        div {
+          margin-top: 10px;
+
+          h3 {
+            margin-top: 10px;
+            font-family: DM Serif Display;
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 48px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+
+          h4 {
+            margin-top: 10px;
+            font-family: DM Sans;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+
+          p {
+            margin-top: 10px;
+            font-family: DM Sans;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: gray;
+          }
+        }
+      }
+    }
+
+    .h-right {
+      max-width: 65%;
+      margin: auto;
+
+      img {
+        max-width: 100%;
+        height: auto;
+        flex-shrink: 0;
+      }
+    }
+  }
+
+  @media all and (min-width: 100px) and (max-width: 375px) {
+    .pr {
+      flex-direction: column;
+      max-width: 100%;
+      margin: auto;
+      .h-left {
+        max-width: 100%;
+
+        h5 {
+          font-family: DM Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0.3em;
+          text-align: left;
+        }
+        h2 {
+          font-family: DM Serif Display;
+          font-size: 40px;
+          font-weight: 400;
+          line-height: 48px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+        .dis {
+          font-family: DM Sans;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 32px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+        .numb {
+          flex-direction: column;
+
+          div {
+            width: 80%;
+            h3 {
+              font-family: DM Serif Display;
+              font-size: 40px;
+              font-weight: 400;
+              line-height: 48px;
+              letter-spacing: 0px;
+              text-align: left;
+            }
+            h4 {
+              font-family: DM Sans;
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 24px;
+              letter-spacing: 0px;
+              text-align: left;
+            }
+            p {
+              font-family: DM Sans;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 24px;
+              letter-spacing: 0px;
+              text-align: left;
+            }
+          }
+        }
+      }
+      .h-right {
+        max-width: 100%;
+        margin: auto;
+
+        img {
+          width: 647px;
+          height: 431px;
+          top: 940px;
+          left: -138px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
