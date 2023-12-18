@@ -949,7 +949,7 @@ header .nav-list .list li button {
 
 .footer-1 {
   margin-top: 5rem;
-  background-color: #FFDD78;
+  background-color: #ffdd78;
 }
 .footer-1 .box {
   width: 80%;
@@ -1001,22 +1001,21 @@ header .nav-list .list li button {
 }
 .footer-1 .box .inp {
   margin-top: 132px;
-  width: 30%;
+  width: 80%;
   flex-shrink: 0;
 }
 @media all and (max-width: 375px) {
   .footer-1 .box .inp {
-    width: 80%;
+    width: 346px;
     margin-top: 10px;
   }
 }
 .footer-1 .box .inp input {
-  width: 80%;
   height: 48px;
   border-radius: 5px;
   margin-top: 28px;
-  border: 1px solid #DADADA;
-  background: #FFF;
+  border: 1px solid #dadada;
+  background: #fff;
   padding-left: 16px;
 }
 @media all and (max-width: 375px) {
@@ -1041,17 +1040,17 @@ header .nav-list .list li button {
   line-height: 24px;
 }
 .footer-1 .box .button {
-  width: 120px;
+  width: 170px;
   height: 48px;
   flex-shrink: 0;
   border-radius: 5px;
   color: white;
   border-radius: 5px;
-  background-color: #434CCC;
+  background-color: #434ccc;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
@@ -1067,15 +1066,15 @@ header .nav-list .list li button {
 }
 
 .footer-2 {
-  background-color: #F5F6Fc;
+  background-color: #f5f6fc;
   width: 100%;
+  margin: auto;
   height: 400px;
   flex-shrink: 0;
+  padding-left: 20px;
 }
 @media all and (max-width: 375px) {
   .footer-2 {
-    width: 80%;
-    margin: auto;
     height: 896px;
     flex-shrink: 0;
   }
@@ -1147,7 +1146,7 @@ header .nav-list .list li button {
 @media all and (max-width: 375px) {
   .footer-2 #div-1 #div-1-2 div:nth-child(1),
   .footer-2 #div-1 #div-1-2 div:nth-child(2) {
-    margin: 80px 120px 0 0;
+    margin: 80px 50px 0 0;
   }
 }
 .footer-2 #div-1 #div-1-2 div:nth-child(1) div:nth-child(1),
@@ -1174,7 +1173,6 @@ header .nav-list .list li button {
   display: flex;
   flex-direction: column;
   margin-top: 79px;
-  width: 33%;
   gap: 40px;
 }
 @media all and (max-width: 375px) {
@@ -1185,6 +1183,9 @@ header .nav-list .list li button {
 .footer-2 #div-1 #div-1-3 div {
   display: flex;
   gap: 20px;
+}
+.footer-2 #div-1 #div-1-3 div div {
+  flex-direction: column;
 }
 @media all and (max-width: 375px) {
   .footer-2 #div-1 #div-1-3 div {
@@ -1207,9 +1208,9 @@ header .nav-list .list li button {
   font-weight: 400;
   line-height: 24px;
   width: 100%;
+  margin-bottom: 0;
 }
 .footer-2 #div-1 #div-1-3 div > div > div:nth-child(2) {
-  margin-top: 1px;
   color: var(--Text_Black, #000);
   font-family: DM Sans;
   font-size: 1em;
@@ -1223,7 +1224,7 @@ header .nav-list .list li button {
   flex-shrink: 0;
   opacity: 0.0989;
   background: #000;
-  margin-top: 55px;
+  margin-top: 18px;
 }
 @media all and (max-width: 375px) {
   .footer-2 > div:nth-child(2) {
