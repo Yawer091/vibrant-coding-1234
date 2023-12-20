@@ -34,6 +34,11 @@ sugar cosmetics
 - [Figma Designs : Layout-2](https://www.figma.com/proto/P728ZEPqIwLTH6OTsqcJcD/Responsive_Template?node-id=0-824&scaling=min-zoom&page-id=0%3A1)
 
 ## Screenshots
+<<<<<<< HEAD
 
 ![Blog Landing Page](./ss/header.png)
 ![Bootstrap Landing Page](./ss/carou.png)
+=======
+![Product Landing Page](https://github.com/Yawer091/vibrant-coding-1234/blob/main/ss/Screenshot%202023-12-19%20222849.png)
+![Contacts Landing Page](https://github.com/dev-chandan-pandey/Gusty-adjustment-6018/assets/57762023/6d343501-501b-4711-a2c6-aba86d33fad8)
+>>>>>>> 2413c1aba4bd53cca311e055f144c13639ebc698
