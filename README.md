@@ -27,7 +27,7 @@ sugar cosmetics
 2. chandan pandey FW28_022
 3. Naman Bansal fw29_168
 4. Sujeet Kumar fw29_048 
-5. Poornima Mohabe FW28_226
+5. Renuka Jagrwal fw29_183
 
 ## Inspiration, code snippets, etc.
 * [Figma Designs : Layout-2](https://www.figma.com/proto/P728ZEPqIwLTH6OTsqcJcD/Responsive_Template?node-id=0-824&scaling=min-zoom&page-id=0%3A1)
