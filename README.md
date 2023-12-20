@@ -34,5 +34,5 @@ sugar cosmetics
 
 
 ## Screenshots
-![Blog Landing Page](https://github.com/dev-chandan-pandey/Gusty-adjustment-6018/assets/57762023/22ecb06d-5deb-4b83-a458-a0ddcdf42e4b)
+![Product Landing Page](https://github.com/Yawer091/vibrant-coding-1234/blob/main/ss/Screenshot%202023-12-19%20222849.png)
 ![Contacts Landing Page](https://github.com/dev-chandan-pandey/Gusty-adjustment-6018/assets/57762023/6d343501-501b-4711-a2c6-aba86d33fad8)
