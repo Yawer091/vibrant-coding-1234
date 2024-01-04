@@ -7,8 +7,7 @@
 </a>
 #<a href="https://nimble-lolly-366135.netlify.app/"  target="_blank" style="textDecoration:none">vibrant-coding-1234 - Sugar
 </a>
- -> Product Details Page
-sugar cosmetics
+ -> sugar cosmetics
 
 ## Description
 
