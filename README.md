@@ -19,6 +19,7 @@ sugar cosmetics
 
 - HTML
 - CSS
+- BOOTSTRAP
 - SASS
 - Github
 - Git
