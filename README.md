@@ -11,7 +11,7 @@
 
 ## Description
 
-1. A product blog page with a navigation bar, header, product processing, happy customer, successful order delivered,order status, service management, success rate, futures section, explore more section,percentage bar, author setion, footer.
+1. A product blog page with a navigation bar, header, product processing, happy customers, order status, service management, success rate, explore more section, footer.
 2. SUGAR Cosmetics is a cruelty-free makeup brand that is high on style and higher on performance. The brand is inspired by and targeted towards bold, independent women who refuse to be stereotyped into roles.
 
 ## Tech Stacks Used
