@@ -30,3 +30,29 @@ The repository contains a clone of the FIGMA landing page. The landing page mimi
 1. Clone the repository:
    ```bash
   git clone https://github.com/your-username/landing-page-clone.git
+
+## Tech Stacks Used
+
+- HTML
+- CSS
+- BOOTSTRAP
+- SASS
+- Github
+- Git
+- VSCode
+
+## Authors
+
+1. Yawer Atique fw29_091 (Team Lead)
+2. chandan pandey FW28_022
+3. Naman Bansal fw29_168
+4. Sujeet Kumar fw29_048
+5. Renuka Jagrwal fw29_183
+
+## Inspiration, code snippets, etc.
+
+- [Figma Designs : Layout-2](https://www.figma.com/proto/P728ZEPqIwLTH6OTsqcJcD/Responsive_Template?node-id=0-824&scaling=min-zoom&page-id=0%3A1)
+
+## Screenshots
+
+[Product Landing Page](./ss/header.png)
