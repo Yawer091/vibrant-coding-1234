@@ -22,6 +22,10 @@ The repository contains a clone of the Sugar Cosmetics landing page. The landing
 - scripts.js: JavaScript file for interactive functionalities.
 - images/: Directory containing images and assets used in the landing page.
 
+## deploy link on netlify
+
+https://nimble-lolly-366135.netlify.app/
+
 ## Getting Started
 
 1. Clone the repository:
