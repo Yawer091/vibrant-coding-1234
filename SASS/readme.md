@@ -27,11 +27,6 @@ The repository contains a clone of the FIGMA landing page. The landing page mimi
 - pics/:Directory containing images and assets used in the landing page.
 - ss/:Directory containing favicon, svg used in the landing page.
 
-## Getting Started
-
-1. Clone the repository:
-   ```bash
-  git clone https://github.com/your-username/landing-page-clone.git
 
 ## Tech Stacks Used
 
