@@ -12,19 +12,21 @@ The repository contains a clone of the FIGMA landing page. The landing page mimi
 - *Customer Relationship Management*
 - *Project stats*: number of tech Stack, project accuracy, project base price
 - *Services*: Frontend, Backend , Cloud ,AWS.
-- Project Showcase
+- *Project Showcase*
 - *Project Tech stack stats*:
-- Contact us
+- *Contact us*
 
 
 ## Project Structure
 
 - index.html: Main HTML file for the landing page.
 - styles.scss: SCSS file for styling the landing page.
-- images/: Directory containing images and assets used in the landing page.
+- Nimages/: Directory containing images and assets used in the landing page.
+- pics/:Directory containing images and assets used in the landing page.
+- ss/:Directory containing favicon, svg used in the landing page.
 
 ## Getting Started
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/sugar-cosmetics-landing-page-clone.git
+  git clone https://github.com/your-username/landing-page-clone.git
