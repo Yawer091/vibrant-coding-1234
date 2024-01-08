@@ -8,6 +8,14 @@ This project is a practice exercise to recreate the landing page of Sugar Cosmet
 
 The repository contains a clone of the Sugar Cosmetics landing page. The landing page mimics the design, layout, and functionalities of the original Sugar Cosmetics website. This project is for practice purposes and does not have a commercial use.
 
+## Tech stack used
+Html
+Css
+Bootstrap
+git bash
+git hub
+
+
 ### Key Features
 
 - *Best Sellers*: Showcase best-selling cosmetic products.
