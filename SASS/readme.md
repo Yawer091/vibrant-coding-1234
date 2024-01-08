@@ -1,6 +1,7 @@
 # FIGMA Landing Page 
 #<a href="https://legendary-malabi-cfb639.netlify.app/"  target="_blank" style="textDecoration:none">vibrant-coding-1234 - Figma
 </a>
+<br>
 This project is a practice exercise to recreate the landing page of figma design using HTML, CSS, and SCSS. The objective is to enhance coding and testing skills.
 
 ## Overview
