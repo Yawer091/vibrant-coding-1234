@@ -9,7 +9,7 @@ The repository contains a clone of the FIGMA landing page. The landing page mimi
 ### Key Features
 - *Company portfolio*: stats of client and projects.
 - *Project Processing*: from development to deliver
-- *Customer Relationship Management
+- *Customer Relationship Management*
 - *Project stats*: number of tech Stack, project accuracy, project base price
 - *Services*: Frontend, Backend , Cloud ,AWS.
 - Project Showcase
