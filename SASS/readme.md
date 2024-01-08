@@ -35,15 +35,12 @@ The repository contains a clone of the FIGMA landing page. The landing page mimi
 
 - HTML
 - CSS
-- BOOTSTRAP
 - SASS
 - Github
-- Git
-- VSCode
 
 ## Authors
 
-1. Yawer Atique fw29_091 (Team Lead)
+1. Yawer Atique fw29_091
 2. chandan pandey FW28_022
 3. Naman Bansal fw29_168
 4. Sujeet Kumar fw29_048
