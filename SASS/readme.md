@@ -18,6 +18,8 @@ The repository contains a clone of the FIGMA landing page. The landing page mimi
 - *Project Tech stack stats*:
 - *Contact us*
 
+## screenshot
+![ss1](https://github.com/Yawer091/vibrant-coding-1234/blob/4b8127540db9f358788485b13514a5d98d99cf44/ss/header.png)
 
 ## Project Structure
 
