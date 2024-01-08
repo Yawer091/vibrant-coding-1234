@@ -54,4 +54,4 @@ The repository contains a clone of the FIGMA landing page. The landing page mimi
 
 ## Screenshots
 
-[Product Landing Page](./ss/header.png)
+[Product Landing Page]([./ss/header.png](https://github.com/Yawer091/vibrant-coding-1234/blob/main/ss/Screenshot%202023-12-19%20234229.png)https://github.com/Yawer091/vibrant-coding-1234/blob/main/ss/Screenshot%202023-12-19%20234229.png)
