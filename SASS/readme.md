@@ -44,7 +44,7 @@ The repository contains a clone of the FIGMA landing page. The landing page mimi
 4. Sujeet Kumar fw29_048
 5. Renuka Jagrwal fw29_183
 
-## Inspiration, code snippets, etc.
+## References, Inspiration, code snippets, etc.
 
 - [Figma Designs : Layout-2](https://www.figma.com/proto/P728ZEPqIwLTH6OTsqcJcD/Responsive_Template?node-id=0-824&scaling=min-zoom&page-id=0%3A1)
 
